@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+  margin-top: 30px;
+  background: linear-gradient(to right, rgb(230, 222, 222),rgb(19, 185, 19));
+}
+#stage{
+  height: 600px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+ margin: auto;
+ margin-bottom: 0px;
+ 
+}
+
+.text-geral{
+ margin-top: -30px;
+ display: flex;
+ justify-content: center;
+}
+
+.text1{
+height: 65px;
+width: 200px;
+font-size: 22px;
+color: blueviolet;
+background-color: rgb(214, 233, 230);
+border: none;
+}
+
+.text1:hover{
+  background-color: darkgrey;
+  color: rgb(80, 21, 126);
+  font-size: 25px;
+  cursor: pointer;
+   
+}
+.text2:hover{
+  background-color: darkgrey;
+  color: rgb(80, 21, 126);
+  font-size: 25px;
+  cursor: pointer;
+   
+}
